@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resturent | Authentic Flavours &amp; Dining Experience</title>
+  <meta name="description" content="Discover the Taste. Experience Resturent. Authentic Sri Lankan &amp; Asian cuisine, dine-in comfort, and quick phone-in takeaway on 0725509543." />
+
+  <!-- Google Fonts: Cormorant Garamond (Display) & Plus Jakarta Sans (Body/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- ========================================================================
+       STICKY NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="brand-logo" aria-label="Resturent Home">
+        <span class="brand-logo__mark"><i class="fa-solid fa-fire-flame-curved"></i></span>
+        <span>Restur<em>ent</em></span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#beverages" class="nav-link">Beverages</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="tel:+94725509543" class="btn btn-primary nav-call-btn" aria-label="Call Resturent to Order on 0725509543">
+          <i class="fa-solid fa-phone"></i>
+          <span class="btn-label-short">Call</span>
+          <span class="btn-label-full">Call to Order</span>
+        </a>
+
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#home" class="mobile-menu__link">Home</a>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#menu" class="mobile-menu__link">Menu</a>
+    <a href="#beverages" class="mobile-menu__link">Beverages</a>
+    <a href="#gallery" class="mobile-menu__link">Gallery</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+    <a href="tel:+94725509543" class="btn btn-primary" style="margin-top: 1rem;">
+      <i class="fa-solid fa-phone"></i> Call 0725509543
+    </a>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         HERO SECTION
+         ====================================================================== -->
+    <section class="hero" id="home">
+      <div class="hero__bg" id="heroBg" role="img" aria-label="Signature Biriyani and Fried Rice Feast at Resturent"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__badge hero-anim">
+            <i class="fa-solid fa-utensils"></i>
+            <span>Dine-In &amp; Phone-In Takeaway</span>
+          </div>
+
+          <h1 class="hero__title hero-anim">
+            Discover the Taste.<br />
+            Experience <span class="accent-text">Resturent.</span>
+          </h1>
+
+          <p class="hero__text hero-anim">
+            Delicious meals, authentic flavours and memorable dining experiences. Enjoy your favourite food at Resturent or call us to arrange takeaway.
+          </p>
+
+          <div class="hero__ctas hero-anim">
+            <a href="#menu" class="btn btn-primary">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Explore Our Menu</span>
+            </a>
+            <a href="tel:+94725509543" class="btn btn-outline">
+              <i class="fa-solid fa-phone-volume"></i>
+              <span>Call Us Now — 0725509543</span>
+            </a>
+          </div>
+
+          <div class="hero__highlights hero-anim">
+            <div class="hero__highlight-item">
+              <div class="hero__highlight-icon"><i class="fa-solid fa-bowl-rice"></i></div>
+              <div>
+                <strong>Keerisamba &amp; Basmathi</strong>
+                <span>Medium &amp; Large Portions</span>
+              </div>
+            </div>
+            <div class="hero__highlight-item">
+              <div class="hero__highlight-icon"><i class="fa-solid fa-fire"></i></div>
+              <div>
+                <strong>Sizzling Kottu &amp; Devel</strong>
+                <span>Freshly Prepared to Order</span>
+              </div>
+            </div>
+            <div class="hero__highlight-item">
+              <div class="hero__highlight-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Quick Takeaway</strong>
+                <span>Call 0725509543 Direct</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ABOUT RESTURENT
+         ====================================================================== -->
+    <section class="section section--secondary" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media" data-aos="fade-right">
+            <img
+              src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=80"
+              alt="Freshly prepared meat and rice dishes served at Resturent"
+              loading="lazy"
+            />
+            <div class="about-media__caption">
+              <span>Freshly Cooked Daily</span>
+              <strong><i class="fa-solid fa-star"></i> Authentic Flavours</strong>
+            </div>
+          </div>
+
+          <div data-aos="fade-left">
+            <span class="eyebrow">About Resturent</span>
+            <h2 class="section-title">Crafted with Flavour, Served with Warmth</h2>
+            <p class="section-subtitle" style="margin-bottom: 1.15rem;">
+              At Resturent, every plate celebrates bold spices, aromatic rice dishes, sizzling kottu, and rich devilled specialties prepared fresh for every guest.
+            </p>
+            <p class="section-subtitle">
+              Whether you are gathering around our table for a relaxed dine-in meal or calling ahead for generous Medium and Large takeaway portions, we focus on consistent taste, quality ingredients, and a welcoming atmosphere.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feature-card">
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h3>Freshly Prepared</h3>
+                <p>Cooked to order with aromatic spices, fragrant rice varieties, and savoury sauces.</p>
+              </div>
+              <div class="about-feature-card">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <h3>Generous Portions</h3>
+                <p>Convenient Medium (M) and Large (L) sizes tailored for solo meals or sharing.</p>
+              </div>
+              <div class="about-feature-card">
+                <i class="fa-solid fa-couch"></i>
+                <h3>Welcoming Space</h3>
+                <p>A comfortable, relaxed dining environment designed for friends and families.</p>
+              </div>
+              <div class="about-feature-card">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3>Easy Phone Takeaway</h3>
+                <p>Simply call 0725509543 and pick up your hot meal ready on time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         OFFICIAL FOOD MENU (EXTRACTED VERBATIM FROM ATTACHED MENU)
+         ====================================================================== -->
+    <section class="section section--primary" id="menu">
+      <div class="container">
+        <div class="section-header section-header--center" data-aos="fade-up">
+          <span class="eyebrow">Official Menu</span>
+          <h2 class="section-title">Explore Our Authentic Menu</h2>
+          <p class="section-subtitle">
+            Browse our complete selection of Keerisamba, Basmathi, Biriyani, Kottu, Noodles &amp; Pasta, Devel, and Omlet &amp; French Fries. All prices are listed in Sri Lankan Rupees (LKR).
+          </p>
+        </div>
+
+        <!-- Category Tabs & Live Search Filter -->
+        <div class="menu-controls" data-aos="fade-up" data-aos-delay="80">
+          <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Food Menu Categories">
+            <button class="menu-tab active" data-category="all" role="tab" aria-selected="true">All Categories</button>
+            <button class="menu-tab" data-category="keerisamba" role="tab" aria-selected="false">Keerisamba</button>
+            <button class="menu-tab" data-category="basmathi" role="tab" aria-selected="false">Basmathi</button>
+            <button class="menu-tab" data-category="biriyani" role="tab" aria-selected="false">Biriyani</button>
+            <button class="menu-tab" data-category="kottu" role="tab" aria-selected="false">Kottu</button>
+            <button class="menu-tab" data-category="noodles-pasta" role="tab" aria-selected="false">Noodles &amp; Pasta</button>
+            <button class="menu-tab" data-category="devel" role="tab" aria-selected="false">Devel</button>
+            <button class="menu-tab" data-category="omlet-fries" role="tab" aria-selected="false">Omlet &amp; French Fries</button>
+          </div>
+
+          <div class="menu-search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="search"
+              id="menuSearchInput"
+              class="menu-search-input"
+              placeholder="Search dishes (e.g., Chicken, Seafood, Kochchi, Prawns)..."
+              aria-label="Search menu items"
+            />
+          </div>
+        </div>
+
+        <p class="menu-currency-note">
+          All prices in <span>LKR (Rs.)</span> &bull; Call <a href="tel:+94725509543" style="color: var(--accent); text-decoration: underline;">0725509543</a> for takeaway orders.
+        </p>
+
+        <!-- Dynamic Menu Container Rendered From Official Data -->
+        <div class="menu-categories-wrapper" id="menuContainer"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         BEVERAGES SECTION (REUSABLE TEMPLATE — PENDING OFFICIAL LIST)
+         ====================================================================== -->
+    <section class="section section--secondary" id="beverages">
+      <div class="container">
+        <div class="section-header section-header--center" data-aos="fade-up">
+          <span class="eyebrow">Beverages</span>
+          <h2 class="section-title">Refreshing Drinks &amp; Coolers</h2>
+          <p class="section-subtitle">
+            Pair your favourite meal with a refreshing beverage. Our official beverage menu and prices will be updated here shortly—call us to ask about today's available drinks.
+          </p>
+        </div>
+
+        <div class="beverages-grid" id="beveragesGrid">
+          <!-- Reusable Beverage Card 1 -->
+          <article class="beverage-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="beverage-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80"
+                alt="Chilled Fresh Fruit Juices"
+                loading="lazy"
+              />
+              <span class="beverage-card__status">Menu Pending</span>
+            </div>
+            <div class="beverage-card__body">
+              <div>
+                <h3>Fresh Fruit Juices</h3>
+                <p>Chilled seasonal fruit blends prepared fresh to complement rich, spicy dishes.</p>
+              </div>
+              <div class="beverage-card__footer">
+                <span>Official items &amp; LKR prices</span>
+                <span><strong>Coming Soon</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reusable Beverage Card 2 -->
+          <article class="beverage-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="beverage-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80"
+                alt="Iced Mocktails and Sodas"
+                loading="lazy"
+              />
+              <span class="beverage-card__status">Menu Pending</span>
+            </div>
+            <div class="beverage-card__body">
+              <div>
+                <h3>Chilled Soft Drinks &amp; Coolers</h3>
+                <p>Crisp carbonated beverages and refreshing citrus coolers served ice-cold.</p>
+              </div>
+              <div class="beverage-card__footer">
+                <span>Official items &amp; LKR prices</span>
+                <span><strong>Coming Soon</strong></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reusable Beverage Card 3 -->
+          <article class="beverage-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="beverage-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80"
+                alt="Creamy Milkshakes and Iced Beverages"
+                loading="lazy"
+              />
+              <span class="beverage-card__status">Menu Pending</span>
+            </div>
+            <div class="beverage-card__body">
+              <div>
+                <h3>Specialty Shakes &amp; Iced Drinks</h3>
+                <p>Smooth, indulgent chilled beverages crafted for dine-in relaxation.</p>
+              </div>
+              <div class="beverage-card__footer">
+                <span>Official items &amp; LKR prices</span>
+                <span><strong>Coming Soon</strong></span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DINING EXPERIENCE SECTION
+         ====================================================================== -->
+    <section class="section section--primary" id="dining">
+      <div class="container">
+        <div class="dining-grid">
+          <div data-aos="fade-right">
+            <span class="eyebrow">Dine-In Experience</span>
+            <h2 class="section-title">Good Food. Great Moments. Welcome to Resturent.</h2>
+            <p class="section-subtitle">
+              Step into a warm, inviting dining space where freshly cooked meals arrive steaming at your table. From family dinners to casual catch-ups over kottu and devilled platters, Resturent sets the stage for memorable moments.
+            </p>
+
+            <ul class="dining-list">
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Comfortable seating and relaxed dark-toned ambience suited for families and groups.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Hot, freshly plated dishes served straight from the kitchen with attentive hospitality.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Generous Medium &amp; Large sharing portions ideal for dining together.</span>
+              </li>
+            </ul>
+
+            <div class="dining-ctas">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Visit Resturent</span>
+              </a>
+              <a href="tel:+94725509543" class="btn btn-outline">
+                <i class="fa-solid fa-phone"></i>
+                <span>Call Us</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="dining-gallery" data-aos="fade-left">
+            <div class="dining-gallery__img dining-gallery__img--tall">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                alt="Warm ambient dining interior at Resturent"
+                loading="lazy"
+              />
+            </div>
+            <div class="dining-gallery__img">
+              <img
+                src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=700&q=80"
+                alt="Aromatic Biriyani served hot"
+                loading="lazy"
+              />
+            </div>
+            <div class="dining-gallery__img">
+              <img
+                src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80"
+                alt="Freshly wok-tossed fried rice"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         TAKEAWAY SECTION (PROMOTIONAL CALL-ONLY — NO CART / NO ONLINE ORDERING)
+         ====================================================================== -->
+    <section class="section section--secondary" id="takeaway">
+      <div class="container">
+        <div class="takeaway-card" data-aos="zoom-in">
+          <div class="takeaway-card__glow"></div>
+          <div class="takeaway-grid">
+            <div>
+              <span class="eyebrow">Phone-In Takeaway</span>
+              <h2 class="section-title">Your Favourite Food, Just a Call Away!</h2>
+              <p class="section-subtitle">
+                Enjoy your favourite meals wherever you are. Contact Resturent to arrange your takeaway order directly with our kitchen team.
+              </p>
+
+              <div class="takeaway-steps">
+                <span class="takeaway-step"><i class="fa-solid fa-1"></i> Pick your items &amp; size (M / L)</span>
+                <span class="takeaway-step"><i class="fa-solid fa-2"></i> Call 0725509543</span>
+                <span class="takeaway-step"><i class="fa-solid fa-3"></i> Collect hot &amp; fresh</span>
+              </div>
+            </div>
+
+            <div class="takeaway-phone-box">
+              <span class="takeaway-phone-label">Direct Takeaway Hotline</span>
+              <a href="tel:+94725509543" class="takeaway-phone-number">0725509543</a>
+              <a href="tel:+94725509543" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>Call Now to Order</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         FOOD & ATMOSPHERE GALLERY (WITH FILTER & FULL-SCREEN LIGHTBOX)
+         ====================================================================== -->
+    <section class="section section--primary" id="gallery">
+      <div class="container">
+        <div class="section-header section-header--center" data-aos="fade-up">
+          <span class="eyebrow">Visual Showcase</span>
+          <h2 class="section-title">Food &amp; Atmosphere Gallery</h2>
+          <p class="section-subtitle">
+            Explore our signature biriyani, fried rice, chicken &amp; seafood dishes, sizzling specialties, refreshing beverages, and dining ambience. Click any photo to view full screen.
+          </p>
+        </div>
+
+        <div class="gallery-filters" id="galleryFilters" data-aos="fade-up">
+          <button class="gallery-filter-btn active" data-filter="all">All</button>
+          <button class="gallery-filter-btn" data-filter="biriyani">Biriyani &amp; Rice</button>
+          <button class="gallery-filter-btn" data-filter="chicken-seafood">Chicken &amp; Seafood</button>
+          <button class="gallery-filter-btn" data-filter="specialties">Kottu &amp; Sides</button>
+          <button class="gallery-filter-btn" data-filter="beverages">Beverages</button>
+          <button class="gallery-filter-btn" data-filter="interior">Interior</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Gallery Item 1: Biriyani -->
+          <div class="gallery-item" data-category="biriyani" data-title="Signature Spiced Biriyani" data-cat-label="Biriyani &amp; Rice" data-src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=700&q=80" alt="Signature Spiced Biriyani" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Biriyani &amp; Rice</span>
+              <h3 class="gallery-item__title">Signature Spiced Biriyani</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2: Fried Rice -->
+          <div class="gallery-item" data-category="biriyani" data-title="Keerisamba &amp; Basmathi Fried Rice" data-cat-label="Biriyani &amp; Rice" data-src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="50">
+            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80" alt="Keerisamba and Basmathi Fried Rice" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Biriyani &amp; Rice</span>
+              <h3 class="gallery-item__title">Keerisamba &amp; Basmathi Fried Rice</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3: Chicken Dishes -->
+          <div class="gallery-item" data-category="chicken-seafood" data-title="Spicy Chicken Devel" data-cat-label="Chicken &amp; Seafood" data-src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=700&q=80" alt="Spicy Chicken Devel" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Chicken &amp; Seafood</span>
+              <h3 class="gallery-item__title">Spicy Chicken Devel</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4: Seafood -->
+          <div class="gallery-item" data-category="chicken-seafood" data-title="Hot Batter Prawns &amp; Seafood" data-cat-label="Chicken &amp; Seafood" data-src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="150">
+            <img src="https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=700&q=80" alt="Hot Batter Prawns and Seafood" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Chicken &amp; Seafood</span>
+              <h3 class="gallery-item__title">Hot Batter Prawns &amp; Seafood</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5: Noodles & Fries -->
+          <div class="gallery-item" data-category="specialties" data-title="Wok Noodles &amp; Crispy French Fries" data-cat-label="Kottu &amp; Sides" data-src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=700&q=80" alt="Wok Noodles and Crispy Sides" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Kottu &amp; Sides</span>
+              <h3 class="gallery-item__title">Chicken Noodles &amp; Stir-Fry</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6: French Fries & Platters -->
+          <div class="gallery-item" data-category="specialties" data-title="Golden Crispy French Fries" data-cat-label="Kottu &amp; Sides" data-src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="50">
+            <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="Golden Crispy French Fries" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Kottu &amp; Sides</span>
+              <h3 class="gallery-item__title">Golden Crispy French Fries</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 7: Beverages -->
+          <div class="gallery-item" data-category="beverages" data-title="Chilled Citrus &amp; Fruit Coolers" data-cat-label="Beverages" data-src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=700&q=80" alt="Chilled Citrus and Fruit Coolers" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Beverages</span>
+              <h3 class="gallery-item__title">Chilled Citrus &amp; Fruit Coolers</h3>
+            </div>
+          </div>
+
+          <!-- Gallery Item 8: Restaurant Interior -->
+          <div class="gallery-item" data-category="interior" data-title="Resturent Evening Dining Ambience" data-cat-label="Interior" data-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=85" data-aos="fade-up" data-aos-delay="150">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Resturent Evening Dining Ambience" loading="lazy" />
+            <span class="gallery-item__zoom"><i class="fa-solid fa-expand"></i></span>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Interior</span>
+              <h3 class="gallery-item__title">Evening Dining Ambience</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION (WITH PLACEHOLDERS FOR UNSUPPLIED ADDRESS & HOURS)
+         ====================================================================== -->
+    <section class="section section--secondary" id="contact">
+      <div class="container">
+        <div class="section-header section-header--center" data-aos="fade-up">
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="section-title">Contact Resturent</h2>
+          <p class="section-subtitle">
+            Call us directly for takeaway orders, menu inquiries, or dine-in visits.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards" data-aos="fade-right">
+            <!-- Phone Card (Confirmed) -->
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h3>Telephone &amp; Takeaway Orders</h3>
+                <p style="margin-bottom: 0.75rem;">
+                  <a href="tel:+94725509543" style="color: var(--text-primary); font-weight: 700; font-size: 1.15rem;">0725509543</a>
+                </p>
+                <a href="tel:+94725509543" class="btn btn-primary" style="padding: 0.6rem 1.25rem; min-height: 40px; font-size: 0.85rem;">
+                  <i class="fa-solid fa-phone-volume"></i> Click to Call
+                </a>
+              </div>
+            </div>
+
+            <!-- Location Placeholder -->
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h3>Restaurant Location</h3>
+                <p>Official street address to be confirmed.</p>
+                <span class="placeholder-tag">Location Placeholder — Add Street Address</span>
+              </div>
+            </div>
+
+            <!-- Opening Hours Placeholder -->
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fa-regular fa-clock"></i></div>
+              <div>
+                <h3>Opening Hours</h3>
+                <p>Daily service schedule to be confirmed.</p>
+                <span class="placeholder-tag">Opening Hours Placeholder — Call 0725509543 to Confirm</span>
+              </div>
+            </div>
+
+            <!-- Social Media Links Placeholder -->
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div>
+                <h3>Social Media</h3>
+                <p>Follow Resturent for updates and daily specials.</p>
+                <div class="social-row">
+                  <a href="#contact" class="social-pill" aria-label="Facebook Placeholder"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                  <a href="#contact" class="social-pill" aria-label="Instagram Placeholder"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                  <a href="#contact" class="social-pill" aria-label="WhatsApp Placeholder"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Placeholder -->
+          <div class="map-placeholder" data-aos="fade-left">
+            <div class="map-placeholder__pin">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <h3>Google Maps Embed Placeholder</h3>
+            <p>
+              Interactive Google Maps location will appear here once Resturent's official street coordinates are confirmed.
+            </p>
+            <a href="tel:+94725509543" class="btn btn-outline">
+              <i class="fa-solid fa-phone"></i> Call 0725509543 for Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#home" class="brand-logo" aria-label="Resturent Home">
+            <span class="brand-logo__mark"><i class="fa-solid fa-fire-flame-curved"></i></span>
+            <span>Restur<em>ent</em></span>
+          </a>
+          <p class="footer__desc">
+            Delicious meals, authentic flavours and memorable dining experiences. Dine in with us or call directly to arrange your takeaway order.
+          </p>
+          <div class="footer__socials">
+            <a href="#contact" class="footer__social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#contact" class="footer__social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#contact" class="footer__social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Resturent</a></li>
+            <li><a href="#menu">Official Menu</a></li>
+            <li><a href="#beverages">Beverages</a></li>
+            <li><a href="#gallery">Food Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Takeaway &amp; Inquiries</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="tel:+94725509543" style="color: var(--text-primary); font-weight: 700;">
+                <i class="fa-solid fa-phone" style="color: var(--accent); margin-right: 0.45rem;"></i>0725509543
+              </a>
+            </li>
+            <li style="color: var(--text-muted); font-size: 0.86rem;">Location: Placeholder (To be updated)</li>
+            <li style="color: var(--text-muted); font-size: 0.86rem;">Hours: Placeholder (To be updated)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Resturent. All rights reserved.</p>
+        <p>All menu prices in LKR &bull; Phone-in takeaway orders only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile Click-to-Call Button -->
+  <a href="tel:+94725509543" class="mobile-call-fab" aria-label="Call Resturent 0725509543">
+    <i class="fa-solid fa-phone"></i>
+    <span>0725509543</span>
+  </a>
+
+  <!-- Full-Screen Gallery Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close Lightbox">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous Image">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next Image">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+      <div class="lightbox__img-wrap">
+        <img src="" alt="" class="lightbox__img" id="lightboxImg" />
+      </div>
+      <div class="lightbox__caption">
+        <div>
+          <span class="gallery-item__cat" id="lightboxCat">Category</span>
+          <h3 class="gallery-item__title" id="lightboxTitle">Dish Title</h3>
+        </div>
+        <a href="tel:+94725509543" class="btn btn-primary" style="padding: 0.55rem 1.15rem; min-height: 40px; font-size: 0.84rem;">
+          <i class="fa-solid fa-phone"></i> Call to Order
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SCRIPTS: GSAP, AOS & VANILLA JAVASCRIPT
+       ======================================================================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+</body>
+</html>
